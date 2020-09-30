@@ -1,0 +1,20 @@
+{
+  "name": "Trello Presenter",
+  "version": "1.0",
+  "description": "Minimal trello board view",
+  "manifest_version": 2,
+  "permissions": ["https://trello.com/b/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://trello.com/b/*"],
+      "js": ["action.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/trello-presenter--16.png",
+    "32": "images/trello-presenter--32.png",
+    "48": "images/trello-presenter--48.png",
+    "128": "images/trello-presenter--128.png"
+  }
+}
+
